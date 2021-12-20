@@ -1,0 +1,26 @@
+{
+  "name": "eriased",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ooglely/eriased.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ooglely/eriased/issues"
+  },
+  "homepage": "https://github.com/Ooglely/eriased#readme",
+  "dependencies": {
+    "prompt": "^1.2.0",
+    "puppeteer": "^12.0.1"
+  },
+  "devDependencies": {
+    "cli-interact": "^0.1.9"
+  }
+}
