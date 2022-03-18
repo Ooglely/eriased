@@ -5,7 +5,7 @@ console.log('Printing a list of all songs from artists that you follow to list.t
 
 exec('del list.txt')
 exec('del ' + Output)
-exec('".\\yt-dl\\youtube-dl.exe" --flat-playlist -e --batch-file="following.txt" >> list.txt')
+exec('".\\yt-dl\\youtube-dl.exe" --flat-playlist -e --sleep-interval 5 --batch-file="following.txt" >> list.txt')
 console.log('Printing to list.txt.')
-exec('".\\yt-dl\\youtube-dl.exe" --flat-playlist -e --batch-file="following.txt" >> ' + Output)
+exec('".\\yt-dl\\youtube-dl.exe" --flat-playlist -e --sleep-interval 5 --batch-file="following.txt" >> ' + Output)
 console.log('Printing to ' + Output + '.')
